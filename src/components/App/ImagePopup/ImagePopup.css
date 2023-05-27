@@ -1,0 +1,22 @@
+.image-viewing {
+  position: relative;
+}
+
+.image-viewing__img-card {
+  position: relative;
+  margin: 0;
+}
+
+.image-viewing__image {
+  max-width: 95vw;
+  max-height: 95vh;
+  height: 100%;
+}
+
+.popup__close_type_image-viewing {
+  z-index: 10;
+  top: 36px;
+  right: 36px;
+  color: #fff;
+  box-shadow:  0 0 10px rgba(0,0,0,0.5);
+}

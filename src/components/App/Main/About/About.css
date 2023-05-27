@@ -1,0 +1,101 @@
+.about {
+  padding: 100px ;
+  max-width: 100vw;
+  margin: 0 auto;
+}
+
+.about__title {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 43px;
+  color: #000;
+  margin: 0 0 68px;
+  text-align: center;
+}
+
+.about__content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+  padding: 0 15px;
+}
+
+.about__image {
+  width: 100%;
+  height: auto;
+}
+
+.about__description-title {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 31px;
+  color: #000;
+  margin: 0 0 8px;
+}
+
+.about__text {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000;
+  margin: 0 0 16px;
+}
+
+.about__list-title {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000;
+  margin: 0 0 16px;
+}
+
+.about__list {
+  margin: 0 0 16px;
+}
+
+.about__list-item {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000;
+    margin: 0;
+}
+
+@media (max-width: 1200px) {
+  .about {
+    max-width: 930px;
+  }
+}
+
+@media (max-width: 992px) {
+  .about {
+    max-width: 690px;
+  }
+
+  .about__content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    max-width: 510px;
+  }
+}
+
+@media (max-width: 575px) {
+  .about {
+    max-width: 100%;
+  }
+}
+

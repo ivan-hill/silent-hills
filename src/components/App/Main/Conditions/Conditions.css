@@ -1,0 +1,141 @@
+.conditions {
+  padding: 78px 0 48px;
+  background: url(../../../../images/whiteangle.png) center/cover no-repeat;
+}
+
+.conditions__content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.conditions__title {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 51px;
+  color: #fff;
+  max-width: 490px;
+  text-transform: uppercase;
+  margin: 0 0 8px;
+}
+
+.conditions__subtitle {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 34px;
+  color: #fff;
+  max-width: 490px;
+  margin: 0 0 35px;
+}
+
+.conditions__list {
+  list-style-type: none;
+  position: relative;
+  margin: 0 0 50px;
+}
+
+.conditions__list-item::before {
+  content: "\2713";
+  position: absolute;
+  left: 0;
+  color: red;
+  font-size: 30px;
+}
+
+.conditions__list-item {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #fff;
+  margin: 0 0 5px;
+}
+
+.conditions__feedback-button {
+  box-sizing: border-box;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.25;
+  color: #fff;
+  background-color: #AB0C00;
+  min-width: 165px;
+  margin: 0;
+  padding: 10px 0;
+  border-radius: 100px;
+  border: 1px solid transparent;
+  transition: all .15s ease-in-out;
+}
+
+.conditions__feedback-button:hover {
+  background-color: #EC1000;
+}
+
+@media (max-width: 1200px) {
+  .conditions__content {
+    max-width: 930px;
+  }
+}
+
+@media (max-width: 992px) {
+  .conditions {
+    padding: 50px 0 20px;
+  }
+
+  .conditions__content {
+    max-width: 690px;
+  }
+
+  .conditions__title {
+    font-size: 30px;
+    line-height: 30px;
+    max-width: 330px;
+  }
+
+  .conditions__subtitle {
+    font-size: 20px;
+  }
+
+  .conditions__list-item {
+    font-size: 16px;
+    line-height: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .conditions {
+    padding: 78px 0 48px;
+    background: black;
+  }
+
+  .conditions__content {
+    max-width: 510px;
+  }
+
+  .conditions__title {
+    font-size: 45px;
+    line-height: 51px;
+    max-width: 490px;
+  }
+
+  .conditions__subtitle {
+    font-size: 30px;
+  }
+
+  .conditions__list-item {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width: 575px) {
+  .conditions__content {
+    max-width: 100%;
+  }
+}

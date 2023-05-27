@@ -1,0 +1,20 @@
+.scrollup {
+  box-sizing: border-box;
+  position: fixed;
+  display: block;
+  opacity: 0;
+  text-decoration: none;
+  transform: rotate(180deg);
+  bottom: 100px;
+  right: 30px;
+  width: 36px;
+  height: 36px;
+  background: #fff url(../../../images/select-arrow.png) center/contain no-repeat;
+  border-radius: 50%;
+  padding: 8px;
+  transition: all 1s;
+}
+
+.scrollup_active {
+  opacity: 1;
+}

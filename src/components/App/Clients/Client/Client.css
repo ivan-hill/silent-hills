@@ -1,0 +1,126 @@
+.clients__item {
+  background-color: #fff;
+  border: 1px solid #dfdfdf;
+  border-radius: 30px;
+  margin: 0 0 15px;
+  padding: 13px 38px 13px 35px;
+}
+
+.clients__data {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-items: center;
+  grid-gap: 20px;
+  align-items: center;
+  position: relative;
+  margin: 0 0 25px;
+}
+
+.clients__data-item {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 0;
+  padding: 5px 15px;
+}
+
+.clients__data-item_type_new {
+  background-color: red;
+  color: #fff;
+}
+
+.clients__data-item_type_working {
+  background-color: lightgreen;
+  color: #000;
+}
+
+.clients__data-item_type_end {
+  background-color: lightgray;
+  color: #777;
+}
+
+.clients__edit-button {
+  width: 40px;
+  height: 40px;
+  background: #000 url(../../../../images/svg/edit-avatar-button.svg)
+    center/20px no-repeat;
+  padding: 0;
+  cursor: pointer;
+  transition: 0.2s;
+  border: none;
+}
+
+.clients__edit-button:hover {
+  opacity: 0.5;
+}
+
+.clients__remove-button {
+  width: 40px;
+  height: 40px;
+  background: #000 url(../../../../images/svg/remove-button.svg)
+  center/20px no-repeat;
+  padding: 0;
+  cursor: pointer;
+  transition: 0.2s;
+  border: none;
+}
+
+.clients__remove-button:hover {
+  opacity: 0.5;
+}
+
+.clients__more-button {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  width: 17px;
+  height: 20px;
+  font-weight: 900;
+  font-size: 20px;
+  cursor: pointer;
+  position: relative;
+  transform: rotate(90deg);
+  transition: all 0.5s;
+}
+
+.clients__more-button:hover {
+  opacity: 0.5;
+}
+
+.clients__more-button_active {
+  transform: rotate(270deg);
+  color: #AB0C00;
+}
+
+.clients__description {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  font-style: italic;
+  margin: 0;
+  overflow: hidden;
+  transition: all 0.5s;
+  max-height: 0px;
+}
+
+.clients__description_active {
+  max-height: 100px;
+}
+
+@media(max-width: 1200px) {
+  .clients__data {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .clients__data {
+    grid-template-columns: 1fr;
+  }
+}
+
